@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class Program
+{
+    static void Method()
+    {
+        Console.WriteLine("Hello,  Welcome to Csharp Method Statement Programming");
+    }
+
+    static void Main()
+    {
+        Method();
+    }
+}
