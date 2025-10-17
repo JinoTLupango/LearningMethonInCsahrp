@@ -2,13 +2,15 @@
 
 class Program
 {
-    static void Method()
+    static void Method(string name)
     {
-        Console.WriteLine("Hello,  Welcome to Csharp Method Statement Programming");
+        Console.WriteLine("Hello, " + name + "! Nice to meet you!");
     }
 
     static void Main()
     {
-        Method();
+        Console.Write("Enter your name: ");
+        string userName = Console.ReadLine();
+        Method(userName);
     }
 }
