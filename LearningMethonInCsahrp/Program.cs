@@ -2,13 +2,13 @@
 
 class Program
 {
-    static void Method()
+    static int AddNum(int a, int b)
     {
-        Console.WriteLine("Hello,  Welcome to Csharp Method Statement Programming");
+        return a + b;
     }
-
     static void Main()
     {
-        Method();
+        int result = AddNum(5, 2);
+        Console.WriteLine("The sum is: " + result);
     }
 }
